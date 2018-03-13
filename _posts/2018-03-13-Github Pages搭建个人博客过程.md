@@ -7,7 +7,7 @@ cover: '/assets/img/pages.jpg'
 tags:  GithubPages jekyll
 ---
 
-#1.安装Ruby+jekyll
+# 1.安装Ruby+jekyll
 
 下载地址[https://rubyinstaller.org/downloads/archives/](https://rubyinstaller.org/downloads/archives/ )
 
@@ -21,7 +21,7 @@ $ gem install jekyll
 安装jekyll
 
 
-#2.通过模板创建网站
+# 2.通过模板创建网站
 
 先用github创建新repository，然后用github desktop把这个库的master同步到本地文件夹中。
 
@@ -38,10 +38,10 @@ jekyll serve --safe --watch
 如果能看到模板网站说明部署成功。
 
 
-#3.修改模板
+# 3.修改模板
 
 [https://github.com/kaeyleo/jekyll-theme-H2O](https://github.com/kaeyleo/jekyll-theme-H2O)有详细的模板修改方法。
 
-#4.发布文章
+# 4.发布文章
 把.md格式的文件放到`_posts`文件夹里，具体格式参考模板范文。
 
