@@ -97,4 +97,4 @@ permalink: /:year/:month/:day/:title.html
 plugins: [jekyll-paginate]
 
 # Hero background patterns
-postPatterns: 'food'
+postPatterns: 'circuitBoard'
