@@ -8,31 +8,46 @@ tags:  GithubPages jekyll Markdown
 ---
 
 #Markdown语法测试
-####标题测试
-分级标题
-==
-二级标题
--
-[TOC]
+# 一级标题
+## 二级标题
+### 三级标题
+#### 四级标题
+##### 五级标题
+###### 六级标题
+
+
+*斜体*或_斜体_
+**粗体**
+***加粗斜体***
+~~删除线~~
 
 ####代码
 > hello world!
+> 
 > hello world!
+> 
 > hello world!
+
+
 ####代码嵌套
+
 >1
 >>2
 >>>3
 ####行内标记
+
 代码块`hello world`代码块结束
+
 
 ```
 <div>   
-    <div></div>
-    <div></div>
-    <div></div>
+	<div></div>
+	<div></div>
+	<div></div>
 </div>
 ```
+
+
 
 {% highlight ruby %}
 def show
@@ -53,31 +68,38 @@ end
 	console.log(num);
    
 ####超链接
+
 [超链接1](http://www.baidu.com "百度一下")  
  
-[超链接2][2]
-[2]: http://www.baidu.com/   "百度二下"
+
 
 ####图片
+
 图片1
 
 ![](https://www.baidu.com/img/baidu_jgylogo3.gif '图片1描述')
 
-图片2
 
-![name][01]
-[01]: https://www.baidu.com/img/baidu_jgylogo3.gif  '图片2描述'
 
 ####图片带链接
 [![](https://www.baidu.com/img/baidu_jgylogo3.gif '百度')](http://www.baidu.com)      // 内链式
 
-[![](https://www.baidu.com/img/baidu_jgylogo3.gif '百度')][5]                    // 引用式
-[5]: http://www.baidu.com
+
 
 
 ####插入视频
 
-<iframe height=498 width=510 src='http://player.youku.com/embed/XMjgzNzM0NTYxNg==' frameborder=0 'allowfullscreen'></iframe>
+
+#######iframe播放器,自动播放
+
+
+<iframe type="text/html" height="498" width="510" src="http://player.youku.com/embed/XMzQ1MTc0OTUyMA==" frameborder="0" autoPlay='false'></iframe>
+
+
+#######FLASH播放器
+
+<embed src='http://player.youku.com/player.php/sid/XMzQ1MTc0OTUyMA==/v.swf' allowFullScreen='true' quality='high' width='480' height='400' align='middle' allowScriptAccess='always' type='application/x-shockwave-flash'>
+
 
 
 [![](https://www.baidu.com/img/baidu_jgylogo3.gif)](http://v.youku.com/v_show/id_XMjgzNzM0NTYxNg==.html?spm=a2htv.20009910.contentHolderUnit2.A&from=y1.3-tv-grid-1007-9910.86804.1-2#paction)
@@ -114,6 +136,7 @@ end
 ####公式
 
 $$ x \href{why-equal.html}{=} y^2 + 1 $$
+
 $ x = {-b \pm \sqrt{b^2-4ac} \over 2a}. $
 
 ####分隔符
