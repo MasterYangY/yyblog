@@ -33,10 +33,10 @@ nightMode: true
 comments:
   default_hidden: false
   disqus: false
-  disqus_url: 'https://liaokeyu.disqus.com/embed.js'
+  disqus_url: 'https://cdn-city.livere.com/js/embed.dist.js'
 
   livere: true
-  livere_uid: MTAyMC8yODEwMC80Njcz
+  livere_uid: MTAyMC8zNTEzMC8xMTY2NQ==
 
 # Reward 赞赏功能 by Ray-Eldath
 reward:
