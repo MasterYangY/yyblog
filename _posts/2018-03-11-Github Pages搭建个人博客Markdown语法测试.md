@@ -3,7 +3,7 @@ layout: post
 title: 'Github Pages搭建个人博客Markdown语法测试'
 date: 2018-03-11
 author: YY
-cover: 'http://i4.bvimg.com/636001/27251516694818f6.jpg'
+cover: '/assets/img/banner.jpg'
 tags:  GithubPages jekyll Markdown
 ---
 
