@@ -4,7 +4,7 @@ title: 'Github Pages搭建个人博客过程'
 date: 2018-03-13
 author: YY
 cover: '/assets/img/pages.jpg'
-tags:  GithubPages jekyll
+tags:  GithubPages
 ---
 
 # 1.安装Ruby+jekyll
