@@ -23,7 +23,7 @@ pre[class*="language-"] {
 	tab-size: 4;
 
 	margin: 0;
-	overflow: hidden;
+	overflow: scroll;
 	
 	-webkit-hyphens: none;
 	-moz-hyphens: none;
@@ -35,7 +35,7 @@ pre[class*="language-"] {
 pre[class*="language-"] {
 	padding: 1em;
 	margin: 0;
-	overflow: hidden;
+	overflow: scroll;
 	border-radius: 0.3em;
 }
 
@@ -43,7 +43,7 @@ pre[class*="language-"] {
 pre[class*="language-"] {
 	background: #272822;
 	margin: 0;
-	overflow: hidden;
+	overflow: scroll;
 }
 
 /* Inline code */
@@ -52,7 +52,7 @@ pre[class*="language-"] {
 	border-radius: .3em;
 	white-space: normal;
 	margin: 0;
-	overflow: hidden;
+	overflow: scroll;
 }
 
 .token.comment,
