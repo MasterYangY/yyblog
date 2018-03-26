@@ -22,9 +22,6 @@ pre[class*="language-"] {
 	-o-tab-size: 4;
 	tab-size: 4;
 
-	margin: 0;
-	overflow: scroll;
-	
 	-webkit-hyphens: none;
 	-moz-hyphens: none;
 	-ms-hyphens: none;
@@ -34,16 +31,14 @@ pre[class*="language-"] {
 /* Code blocks */
 pre[class*="language-"] {
 	padding: 1em;
-	margin: 0;
-	overflow: scroll;
+	margin: .5em 0;
+	overflow: auto;
 	border-radius: 0.3em;
 }
 
 :not(pre) > code[class*="language-"],
 pre[class*="language-"] {
 	background: #272822;
-	margin: 0;
-	overflow: scroll;
 }
 
 /* Inline code */
@@ -51,8 +46,6 @@ pre[class*="language-"] {
 	padding: .1em;
 	border-radius: .3em;
 	white-space: normal;
-	margin: 0;
-	overflow: scroll;
 }
 
 .token.comment,
