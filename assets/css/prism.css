@@ -22,6 +22,9 @@ pre[class*="language-"] {
 	-o-tab-size: 4;
 	tab-size: 4;
 
+	margin: 0;
+	overflow: hidden;
+	
 	-webkit-hyphens: none;
 	-moz-hyphens: none;
 	-ms-hyphens: none;
@@ -48,6 +51,8 @@ pre[class*="language-"] {
 	padding: .1em;
 	border-radius: .3em;
 	white-space: normal;
+	margin: 0;
+	overflow: hidden;
 }
 
 .token.comment,
