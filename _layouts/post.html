@@ -34,10 +34,24 @@
     <h2 class="post-subtitle">{{ page.subtitle }}</h2>
     {% endif %}
 
+<<<<<<< HEAD
     <article class="markdown-body">
       {{ page.content }}
     </article>
 
+=======
+    <!--
+	<article class="markdown-body">
+      {{ page.content }}
+    </article>
+
+	-->
+
+    {% if site.reward.enable %}
+      {% include reward.html %}
+    {% endif %}
+
+>>>>>>> parent of 9156a7e... test
     {% if site.social-share %}
     <div class="social-share-wrapper">
       <div class="social-share"></div>
