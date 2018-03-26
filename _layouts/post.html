@@ -37,6 +37,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     <article class="markdown-body">
       {{ page.content }}
     </article>
@@ -52,12 +53,23 @@
     </article>
 
 	-->
+=======
+
+	<article class="markdown-body">
+      {{ page.content }}
+    </article>
+
+
+>>>>>>> parent of 329fc28... test
 
     {% if site.reward.enable %}
       {% include reward.html %}
     {% endif %}
 
+<<<<<<< HEAD
 >>>>>>> parent of 9156a7e... test
+=======
+>>>>>>> parent of 329fc28... test
     {% if site.social-share %}
     <div class="social-share-wrapper">
       <div class="social-share"></div>
@@ -115,6 +127,65 @@
       </div>
       {% endif %}
     </section>
+      
+    <section class="post-footer-item comment">
+        {% if site.comments.default_hidden %}
+        <button class="comment-button" type="button">
+            <i class="fa fa-commenting" aria-hidden="true"></i>
+            <span class="comment-button-span">展开评论</span>
+        </button>
+        {% endif %}
+        
+        <div class="comment-inner">
+            {% if site.comments.disqus %}
+            <div id="disqus_thread"></div>
+            {% endif %}
+        
+            {% if site.comments.livere %}
+            <div id="lv-container" data-id="city" data-uid="{{ site.comments.livere_uid }}"></div>
+            {% endif %}
+        </div>
+    </section>
+      
+    {% if site.comments.default_hidden %}
+    <style>
+        .comment button{
+            margin-bottom: 40px;
+            width: 100%;
+            background: none;
+            border-style: solid hidden solid hidden;
+            font-size: 18px;
+            height: 40px;
+            opacity: 0.5;
+        }
+        
+        .comment button:hover{
+            opacity: 0.9
+        }
+        
+        .comment button span{
+            padding-left: 5px;
+            letter-spacing: 20px;
+            line-height: 40px;
+        }
+        
+        .comment-inner {
+            display: none
+        }
+    </style>
+      
+    <script>
+    $(document).ready(function() {
+        let clicked = false
+        $(".comment-button").click(function() {
+            $(".comment-inner").slideToggle()
+            clicked = !clicked
+            $(".comment-button-span").html(clicked ? "收起评论" : "展开评论")
+        })
+    })
+    </script>
+    {% endif %}
+    
   </section>
 
   {% include footer.html %}
@@ -150,14 +221,40 @@
         s = d.createElement('script');
       s.src = '{{ site.comments.disqus_url }}';
       s.setAttribute('data-timestamp', +new Date());
-
+    
       (d.head || d.body).appendChild(s);
     })();
     {% endif %}
-  </script>
+    
+    {% if site.comments.livere %}
+    (function(d, s) {
+      var j, e = d.getElementsByTagName(s)[0];
 
+      if (typeof LivereTower === 'function') {
+        return;
+      }
+
+      j = d.createElement(s);
+      j.src = 'https://cdn-city.livere.com/js/embed.dist.js';
+      j.async = true;
+
+      e.parentNode.insertBefore(j, e);
+    })(document, 'script');
+    {% endif %}
+</script>
+
+  <noscript>为正常使用评论功能请激活JavaScript。</noscript>
   <script src="/assets/js/prism.js"></script>
   <script src="/assets/js/index.min.js"></script>
 </body>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?54df13ab9f57405249d76c380f3ec4e1";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
 
 </html>
