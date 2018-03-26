@@ -264,7 +264,7 @@
   margin: 32px auto;
   border-spacing: 0;
   border-collapse: collapse;
-  overflow: auto;
+  overflow: hidden;
 }
 
 .markdown-body td,
