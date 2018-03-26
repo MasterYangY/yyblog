@@ -49,7 +49,7 @@ reward:
 b2t: true
 
 # MathJax 公式支持 by Ray-Eldath
-mathjax: true
+mathjax: false
 
 # Share
 social-share: true
