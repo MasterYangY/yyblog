@@ -90,7 +90,7 @@ end
 ####插入视频
 
 
-#######iframe播放器,自动播放
+#######iframe播放器,可选是否自动播放
 
 
 <iframe type="text/html" height="498" width="510" src="http://player.youku.com/embed/XMzQ1MTc0OTUyMA==" frameborder="0" autoPlay='false'></iframe>
@@ -99,6 +99,8 @@ end
 #######FLASH播放器
 
 <embed src='http://player.youku.com/player.php/sid/XMzQ1MTc0OTUyMA==/v.swf' allowFullScreen='true' quality='high' width='480' height='400' align='middle' allowScriptAccess='always' type='application/x-shockwave-flash'>
+
+#######FLASH播放器
 
 <embed height="415" width="544" quality="high" allowfullscreen="true" type="application/x-shockwave-flash" src="//static.hdslb.com/miniloader.swf" flashvars="aid=20564487&p=1"></embed>
 
