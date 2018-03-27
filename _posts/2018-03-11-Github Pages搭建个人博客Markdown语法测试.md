@@ -100,7 +100,7 @@ end
 
 <embed src='http://player.youku.com/player.php/sid/XMzQ1MTc0OTUyMA==/v.swf' allowFullScreen='true' quality='high' width='480' height='400' align='middle' allowScriptAccess='always' type='application/x-shockwave-flash'>
 
-
+<embed height="415" width="544" quality="high" allowfullscreen="true" type="application/x-shockwave-flash" src="//static.hdslb.com/miniloader.swf" flashvars="aid=20564487&p=1"></embed>
 
 [![](https://www.baidu.com/img/baidu_jgylogo3.gif)](http://v.youku.com/v_show/id_XMjgzNzM0NTYxNg==.html?spm=a2htv.20009910.contentHolderUnit2.A&from=y1.3-tv-grid-1007-9910.86804.1-2#paction)
 
