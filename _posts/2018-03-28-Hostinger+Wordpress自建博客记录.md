@@ -48,4 +48,4 @@ tags:  Wordpress
 
 4.有功夫是该再学学HTML了。
 
-<iframe type="text/html" frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=450 src="//music.163.com/outchain/player?type=0&id=720565761&auto=0&height=430"></iframe>
+<embed src="//music.163.com/style/swf/widget.swf?sid=720565761&type=0&auto=0&width=310&height=430" width="330" height="450"  allowNetworking="all">
