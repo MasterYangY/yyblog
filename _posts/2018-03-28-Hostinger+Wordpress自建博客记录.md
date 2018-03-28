@@ -4,7 +4,7 @@ title: 'Hostinger+Wordpress自建博客记录'
 date: 2018-03-28
 author: YY
 cover: '/assets/img/20180328wordpress.png'
-tags:  Wordpress
+tags:  自学记录
 ---
 <h1>1.域名申请</h1>
 <a href="https://wanwang.aliyun.com/" target="_blank">阿里云（万网）</a>直接买，.win域名十年的价格是50RMB，第一次买要实名制备案，需要一天左右。
