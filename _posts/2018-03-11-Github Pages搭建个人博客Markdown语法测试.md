@@ -3,7 +3,7 @@ layout: post
 title: 'Github Pages搭建个人博客Markdown语法测试'
 date: 2018-03-11
 author: YY
-cover: '/assets/img/banner.jpg'
+cover: 'https://upload-images.jianshu.io/upload_images/11362503-8dd17f032a6baff2.jpg'
 tags:  GithubPages
 ---
 

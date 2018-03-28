@@ -3,7 +3,7 @@ layout: post
 title: 'Github Pages搭建个人博客过程'
 date: 2018-03-13
 author: YY
-cover: '/assets/img/pages.jpg'
+cover: 'https://upload-images.jianshu.io/upload_images/11362503-8dd17f032a6baff2.jpg'
 tags:  GithubPages
 ---
 

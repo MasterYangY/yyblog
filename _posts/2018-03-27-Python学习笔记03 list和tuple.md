@@ -3,7 +3,7 @@ layout: post
 title: 'Python学习笔记03 list和tuple'
 date: 2018-03-27
 author: YY
-cover: '/assets/img/python.jpg'
+cover: 'https://upload-images.jianshu.io/upload_images/11362503-74678216336f3a72.jpg'
 tags:  Python
 ---
 # 特别主意 #
