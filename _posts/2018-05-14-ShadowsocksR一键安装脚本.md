@@ -6,6 +6,8 @@ author: YY
 cover: 'https://upload-images.jianshu.io/upload_images/11362503-0d5356af23d8482a.jpg'
 tags:  自学记录
 ---
+转自[https://shadowsocks.be/9.html](https://shadowsocks.be/9.html)
+
 本脚本适用环境：
 系统支持：CentOS，Debian，Ubuntu
 内存要求：≥128M
@@ -166,5 +168,4 @@ tls1.2_ticket_fastauth_compatible
 1、新增在 CentOS 下的防火墙规则设置。
 
 参考链接：
-https://github.com/shadowsocksr-backup/shadowsocksr
-https://shadowsocks.be/9.html
+[https://github.com/shadowsocksr-backup/shadowsocksr](https://github.com/shadowsocksr-backup/shadowsocksr)
