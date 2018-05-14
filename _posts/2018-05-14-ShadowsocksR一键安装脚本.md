@@ -25,14 +25,14 @@ tags:  自学记录
 
 使用方法：
 使用root用户登录，运行以下命令：
-
+```HTML
 	wget --no-check-certificate https://raw.githubusercontent.com/teddysun/shadowsocks_install/
 	master/shadowsocksR.sh
 	chmod +x shadowsocksR.sh
 	./shadowsocksR.sh 2>&1 | tee shadowsocksR.log
-
+```
 安装完成后，脚本提示如下：
-
+```HTML
 	Congratulations, ShadowsocksR server install completed!
 	Your Server IP        :your_server_ip
 	Your Server Port      :your_server_port
@@ -43,18 +43,18 @@ tags:  自学记录
 	
 	Welcome to visit:https://shadowsocks.be/9.html
 	Enjoy it!
+```
 卸载方法：
 使用 root 用户登录，运行以下命令：
 
-	./shadowsocksR.sh uninstall
+`./shadowsocksR.sh uninstall`
 安装完成后即已后台启动 ShadowsocksR ，运行：
-
-	/etc/init.d/shadowsocks status
+`	/etc/init.d/shadowsocks status`
 可以查看 ShadowsocksR 进程是否已经启动。
 本脚本安装完成后，已将 ShadowsocksR 自动加入开机自启动。
 
 使用命令：
-
+```HTML
 	启动：/etc/init.d/shadowsocks start
 	停止：/etc/init.d/shadowsocks stop
 	重启：/etc/init.d/shadowsocks restart
@@ -62,9 +62,9 @@ tags:  自学记录
 	配置文件路径：/etc/shadowsocks.json
 	日志文件路径：/var/log/shadowsocks.log
 	代码安装目录：/usr/local/shadowsocks
-
+```
 多用户配置示例：
-	
+```HTML
 	{
 	"server":"0.0.0.0",
 	"server_ipv6": "[::]",
@@ -86,11 +86,13 @@ tags:  自学记录
 	"fast_open": false,
 	"workers": 1
 	}
+```
 如果你想修改配置文件，请参考：
+```HTML
 	https://github.com/shadowsocksr-backup/shadowsocks-rss/wiki/Server-Setup
 	https://github.com/shadowsocksr-backup/shadowsocks-rss/blob/master/ssr.md
 	https://github.com/shadowsocksr-backup/shadowsocks-rss/wiki/config.json
-
+```
 更新日志：
 2018 年 02 月 07 日：
 1、修改：将默认端口从 8989 改为从 9000-19999 之间随机生成。
@@ -98,11 +100,12 @@ tags:  自学记录
 2018 年 02 月 06 日：
 1、修改：ShadowsocksR 版为 ShadowsocksRR 最新版；
 2、新增：ShadowsocksR 版的协议（protocol）增加了 4 个，分别为：
-
+``````HTML
 	auth_chain_c
 	auth_chain_d
 	auth_chain_e
 	auth_chain_f
+```
 2017 年 12 月 29 日：
 1、升级：libsodium 到 1.0.16。
 
@@ -112,7 +115,7 @@ tags:  自学记录
 
 2017 年 07 月 22 日：
 1、新增：安装时可选 15 种加密方式的其中之一（none 是不加密）。如下所示：
-
+```HTML
 	none
 	aes-256-cfb
 	aes-192-cfb
@@ -129,8 +132,9 @@ tags:  自学记录
 	xchacha20
 	xsalsa20
 	rc4-md5
+```
 2、新增：安装时可选 7 种协议（protocol）的其中之一。如下所示：
-
+```HTML
 	origin
 	verify_deflate
 	auth_sha1_v4
@@ -139,8 +143,9 @@ tags:  自学记录
 	auth_aes128_sha1
 	auth_chain_a
 	auth_chain_b
+```
 3、新增：安装时可选 9 种混淆（obfs）的其中之一。如下所示：
-
+```HTML
 	plain
 	http_simple
 	http_simple_compatible
@@ -150,6 +155,7 @@ tags:  自学记录
 	tls1.2_ticket_auth_compatible
 	tls1.2_ticket_fastauth
 	tls1.2_ticket_fastauth_compatible
+```
 2016 年 08 月 13 日：
 1、新增多用户配置示例。注意：如果你新增了端口，也要将该端口从防火墙（iptables 或 firewalld）中打开。
 
