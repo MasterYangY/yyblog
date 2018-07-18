@@ -6,7 +6,7 @@ author: YY
 cover: 'https://upload-images.jianshu.io/upload_images/11362503-74678216336f3a72.jpg'
 tags:  Python
 ---
-在Python交互式解释器中输 入import this就会显示Tim Peters的The Zen of python
+在Python交互式解释器中输 入`import this`就会显示Tim Peters的The Zen of python
 
 ```HTML
 >>> import this
