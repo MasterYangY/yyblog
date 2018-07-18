@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'Python学习笔记-1 The Zen of python - Python之禅'
-date: 2018-07-18
+date: 2018-03-25
 author: YY
 cover: 'https://upload-images.jianshu.io/upload_images/11362503-74678216336f3a72.jpg'
 tags:  Python
