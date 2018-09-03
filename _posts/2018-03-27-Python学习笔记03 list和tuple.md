@@ -6,7 +6,7 @@ author: YY
 cover: 'https://upload-images.jianshu.io/upload_images/11362503-74678216336f3a72.jpg'
 tags:  Python
 ---
-# 特别主意 #
+# 特别注意 #
 `list`定义用的是`[]`,`tuple`定义用的是`()`,从定义用的括号区分
 
 ## 1、list ##
