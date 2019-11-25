@@ -3,7 +3,7 @@ layout: post
 title: 'ShadowsocksR一键安装脚本'
 date: 2018-05-14
 author: YY
-cover: 'https://upload-images.jianshu.io/upload_images/11362503-0d5356af23d8482a.jpg'
+cover: 'https://yyblog.win/assets/img/ssr.jpg'
 tags:  自学记录
 ---
 转自[https://shadowsocks.be/9.html](https://shadowsocks.be/9.html)

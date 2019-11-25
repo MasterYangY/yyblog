@@ -3,7 +3,7 @@ layout: post
 title: 'Python学习笔记06 dict和set'
 date: 2018-03-28
 author: YY
-cover: 'https://upload-images.jianshu.io/upload_images/11362503-74678216336f3a72.jpg'
+cover: 'https://yyblog.win/assets/img/python.jpg'
 tags:  Python
 ---
 ## 1、dict ##

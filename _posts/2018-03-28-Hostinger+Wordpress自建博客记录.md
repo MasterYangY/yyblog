@@ -3,7 +3,7 @@ layout: post
 title: 'Hostinger+Wordpress自建博客记录'
 date: 2018-03-28
 author: YY
-cover: 'https://upload-images.jianshu.io/upload_images/11362503-ebddfedc8e8ffbb6.png'
+cover: 'https://yyblog.win/assets/img/20180328wordpress.png'
 tags:  自学记录
 ---
 <h1>1.域名申请</h1>
