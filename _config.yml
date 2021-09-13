@@ -52,7 +52,7 @@ b2t: true
 mathjax: false
 
 # Share
-social-share: true
+social-share: false
 social-share-items: ['wechat', 'weibo', 'douban', 'twitter']
 
 # theme color 主题皮肤
