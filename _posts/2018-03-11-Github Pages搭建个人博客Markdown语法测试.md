@@ -90,11 +90,10 @@ end
 ####插入视频
 
 
-#######iframe播放器,可选是否自动播放
+#######iframe播放器，参数可调
 
 
-<iframe type="text/html" height="498" width="510" src="http://player.youku.com/embed/XMzQ1MTc0OTUyMA==" frameborder="0" autoPlay='false'></iframe>
-
+<iframe src="//player.bilibili.com/player.html?aid=548978687&bvid=BV1fq4y1g7hq&cid=434684587&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
 
 #######FLASH播放器
 
