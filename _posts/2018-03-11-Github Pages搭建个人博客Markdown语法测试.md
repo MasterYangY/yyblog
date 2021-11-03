@@ -4,7 +4,7 @@ title: 'Github Pages搭建个人博客Markdown语法测试'
 date: 2018-03-11
 author: YY
 cover: 'https://yyblog.win/assets/img/pages.jpg'
-tags:  GithubPages,Test
+tags:  GithubPages Test
 ---
 
 #Markdown语法测试
