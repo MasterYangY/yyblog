@@ -98,3 +98,6 @@ plugins: [jekyll-paginate]
 
 # Hero background patterns
 postPatterns: 'circuitBoard'
+
+
+markdown:kramdown
