@@ -9,9 +9,9 @@ tags:  GithubPages
 
 # 1.安装Ruby+jekyll
 
-下载地址[https://rubyinstaller.org/downloads/archives/](https://rubyinstaller.org/downloads/archives/ )
+下载地址[https://rubyinstaller.org/downloads/](https://rubyinstaller.org/downloads/ )
 
-考虑到版本问题，需要下载`rubyinstaller-2.3.3-x64.exe`和`DevKit-mingw64-64-4.7.2-20130224-1432-sfx.exe`这两个安装，其中Windows环境下`DevKit-mingw64-64-4.7.2-20130224-1432-sfx.exe`要解压到Ruby的安装目录里。
+考虑到版本问题，需要下载` Ruby+Devkit 2.7.X (x64) `。
 
 安装之后命令行输入
 ```
