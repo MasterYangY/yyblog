@@ -50,7 +50,7 @@ tags:  OceanBase
 支持的CPU：Intel X86 系列CPU、海光（Hygon 7185）、海思（鲲鹏920）、飞腾（FT1500a、
 FT2000）；
 操作系统：CentOS、Red Hat、SUSE、Debian/Ubuntu、AliOS、中标麒麟NeoKylin、
-银河麒麟Kylin 等。
+银河麒麟Kylin 等。**不支持Windows**。
 
 黑屏工具：OceanBase客户端，MySQL客户端
 
@@ -881,15 +881,15 @@ C：Datetime
 
 D：list
 
-19.以下哪个描述不是 OceanBase 的架构特点：	中心管控
+19.	以下哪个描述不是 OceanBase 的架构特点：	中心管控
 
-20. 租户创建完成后，可以使用黑屏客户端连接数据库，除了指定数据库的 IP、端口号、用户名、密码等信息外，OceanBase 一般用户名使用什么格式 
+\20. 租户创建完成后，可以使用黑屏客户端连接数据库，除了指定数据库的 IP、端口号、用户名、密码等信息外，OceanBase 一般用户名使用什么格式 
 
 用户名@租户名  例如 root@sys
 
-21.建立 table group 的主要目的是：	减少跨机分布式事物
+21.	建立 table group 的主要目的是：	减少跨机分布式事物
 
-22. OceanBase 产品的数据库内核是什么  完全自主研发
+\22. OceanBase 产品的数据库内核是什么  完全自主研发
 
 23.当应用向数据库写数据时，默认会访问主副本，此次主副本会同步（）到从副本，保证数据的高可用 D
 
@@ -909,13 +909,13 @@ D：redo-log 日志
 
 26.如果一个 OceanBase 集群由 5 个 Zone，每个 Zone 有 10 台 OB Server，那么一个分区最多有几份全功能型副本  5个
 
-27.Linux 系统一般用什么用户来部署 OceanBase	ADMIN
+27.	Linux 系统一般用什么用户来部署 OceanBase	ADMIN
 
-28.OceanBase 服务器要求使用的磁盘类型	: SSD固态磁盘
+28.	OceanBase 服务器要求使用的磁盘类型	: SSD固态磁盘
 
-29.假设OceanBase有3个Zone,其中2个Zone部署在一个城市的两个机房中，另外一个Zone部署在另外一个城市的一个机房中。如果同城的一个机房宕机，下面说法正确的是？   强一致同步延迟不变
+29.	假设OceanBase有3个Zone,其中2个Zone部署在一个城市的两个机房中，另外一个Zone部署在另外一个城市的一个机房中。如果同城的一个机房宕机，下面说法正确的是？   强一致同步延迟不变
 
-30.Major_freeze_duty_time 设置为 02:00 意味着什么	每日凌晨两点，系统自动发起一次内存冻结操作
+30.	Major_freeze_duty_time 设置为 02:00 意味着什么	每日凌晨两点，系统自动发起一次内存冻结操作
 
 31.关于 OceanBase 事物引擎一致性特点，描述正确的是：保证主键唯一等一致性约束
 
