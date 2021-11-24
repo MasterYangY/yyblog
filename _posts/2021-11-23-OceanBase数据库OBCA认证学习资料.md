@@ -381,6 +381,6 @@ OMS（OceanBase Migration Service，OceanBase迁移服务）
 
 OMS平滑去O方案
 
-![](https://yyblog.win/assets/img/OB/OB21.png)
+![](https://yyblog.win/assets/img/OB/OB22.png)
 
 数据实时同步+快速切换+回滚预案
