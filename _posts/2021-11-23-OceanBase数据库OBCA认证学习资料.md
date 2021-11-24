@@ -260,7 +260,7 @@ OceanBase 把内存分为了两块，默认50%，一块是**MemTable**，用于�
 ->**major freeze(合并)** 
 
 -> **基线数据sstable**
-多个**`mini freeze`**数据会**异步**合并，多个**`minor freeze `**会**实时**合并
+多个`mini freeze`数据会**异步**合并，多个`minor freeze `会**实时**合并
 
 #### LSMTree数据压缩
 
