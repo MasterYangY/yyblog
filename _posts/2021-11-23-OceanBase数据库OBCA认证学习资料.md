@@ -255,9 +255,9 @@ OceanBase 把内存分为了两块，默认50%，一块是**MemTable**，用于�
 
 -> **mini freeze（dump操作）** 
 
--> **minor freeze(转储) **
+-> **minor freeze（转储）** 
 
-->**major freeze(合并)** 
+->**major freeze（合并）** 
 
 -> **基线数据sstable**
 多个`mini freeze`数据会**异步**合并，多个`minor freeze `会**实时**合并
