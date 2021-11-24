@@ -40,7 +40,7 @@ tags:  OceanBase
 
 ## 2.1 产品家族
 
-![](./assets/img/OB/OB1.png)
+![](https://yyblog.win/assets/img/OB/OB1.png)
 
 - ODP 数据中间件
 - OCP运维平台
@@ -60,7 +60,7 @@ FT2000）；
 
 #### 集群、Zone和OB Server
 
-![](./assets/img/OB/OB2.png)
+![](https://yyblog.win/assets/img/OB/OB2.png)
 
 一个集群由多个zone组成，每份数据在各个zone上都有且只有一个副本，单zone故障不影响业务。
 
@@ -70,13 +70,13 @@ OB Server相对独立，有独立计算和存储引擎。
 
 #### RootService总控服务（RS）
 
-![](./assets/img/OB/OB3.png)
+![](https://yyblog.win/assets/img/OB/OB3.png)
 
 RS是OB的核心模块，管理整个集群，负责系统初始化，资源分配调度，全局DDL，集群数据合并等。每个Zone有一个RS服务，但是只有一个为**主**，其余为**备**。**RS无需额外部署，一般与OB server共用一台服务器**。
 
 #### 租户
 
-![](./assets/img/OB/OB4.png)
+![](https://yyblog.win/assets/img/OB/OB4.png)
 
 集群的多个服务器组成大资源池，系统给租户创建虚拟资源池以供使用。
 
@@ -84,7 +84,7 @@ RS是OB的核心模块，管理整个集群，负责系统初始化，资源分�
 
 #### 资源池
 
-![](./assets/img/OB/OB5.png)
+![](https://yyblog.win/assets/img/OB/OB5.png)
 
 UNIT描述了一组资源，每个UNIT都只属于一个租户。
 
@@ -96,7 +96,7 @@ UNIT描述了一组资源，每个UNIT都只属于一个租户。
 
 #### 数据分区与分区副本
 
-![](./assets/img/OB/OB6.png)
+![](https://yyblog.win/assets/img/OB/OB6.png)
 
 数据分区：大表拆成不同分区，分区还能再拆成二级分区。分区的不同副本存在不同Zone中，只有一个主副本，其他为从副本。
 
@@ -116,7 +116,7 @@ UNIT描述了一组资源，每个UNIT都只属于一个租户。
 
 #### 多副本一致性协议（Paxos协议）
 
-![](./assets/img/OB/OB7.png)
+![](https://yyblog.win/assets/img/OB/OB7.png)
 
 Paxos组特点：
 
@@ -126,7 +126,7 @@ Paxos组特点：
 
 #### 自动负载均衡和智能路由
 
-![](./assets/img/OB/OB8.png)
+![](https://yyblog.win/assets/img/OB/OB8.png)
 
 主从副本被打散在各服务器中，使各服务器都能承载业务流量。
 
@@ -135,7 +135,7 @@ Paxos组特点：
 
 #### 多副本同步Redo-Log保证数据持久化
 
-![](./assets/img/OB/OB9.png)
+![](https://yyblog.win/assets/img/OB/OB9.png)
 
 写数据时，主副本所在服务器将Redo-Log发送到从副本所在机器进行落盘，当从副本返回落盘成功消息给主副本的数量足够满足多数派要求后，即可反馈应用操作成功，无需等待其他副本。
 
@@ -146,7 +146,7 @@ Paxos组特点：
 
 #### OB Proxy智能路由服务
 
-![](./assets/img/OB/OB10.png)
+![](https://yyblog.win/assets/img/OB/OB10.png)
 
 OB Proxy能进轻量SQL解析，获取SQL中表的主副本所在的机器，多个OB Proxy 没有联系，可以组成F5/SLB负载均衡集群。**OB Proxy 是一个”无状态“的服务进程，不做数据持久化，不参与数据库引擎的计算任务**。
 
@@ -154,7 +154,7 @@ OB Proxy 不单独占用服务器，可以与OB Server共用服务器。
 
 #### Primary Zone
 
-![](./assets/img/OB/OB11.png)
+![](https://yyblog.win/assets/img/OB/OB11.png)
 
 租户配置Primary Zone，可以将业务汇聚到特定Zone，逗号两侧同优先级，分号左侧优先。
 
@@ -162,7 +162,7 @@ OB Proxy 不单独占用服务器，可以与OB Server共用服务器。
 
 #### Table Group
 
-![](./assets/img/OB/OB12.png)
+![](https://yyblog.win/assets/img/OB/OB12.png)
 
 Table Group将多个多个表分区方式完全相同（分区类型、分区键个数、分区数量等），可以再逻辑上将这些表归属到同一个Table Group中。
 
@@ -238,7 +238,7 @@ OceanBase支持的事务隔离级别：**read-committed**（默认）和**serial
 
 #### 准“内存数据库”+LMSTree存储，避免随机写和写放大
 
-![](./assets/img/OB/OB13.png)
+![](https://yyblog.win/assets/img/OB/OB13.png)
 
 OceanBase 把内存分为了两块，默认50%，一块是**MemTable**，用于写；一块是**热点缓存**，用于读。
 
@@ -247,7 +247,7 @@ OceanBase 把内存分为了两块，默认50%，一块是**MemTable**，用于�
 
 #### LSMTree存储方式
 
-![](./assets/img/OB/OB14.png)
+![](https://yyblog.win/assets/img/OB/OB14.png)
 
 存储顺序
 
@@ -297,23 +297,23 @@ OceanBase 把内存分为了两块，默认50%，一块是**MemTable**，用于�
 
 #### 集群参数
 
-![](./assets/img/OB/OB15.png)
+![](https://yyblog.win/assets/img/OB/OB15.png)
 
 #### 常用OB系统参数（合并相关）
 
-![](./assets/img/OB/OB16.png)
+![](https://yyblog.win/assets/img/OB/OB16.png)
 
 #### 常用OB系统参数（syslog相关）
 
-![](./assets/img/OB/OB17.png)
+![](https://yyblog.win/assets/img/OB/OB17.png)
 
 #### 常用OB系统参数（内存相关）
 
-![](./assets/img/OB/OB18.png)
+![](https://yyblog.win/assets/img/OB/OB18.png)
 
 #### 常用OB系统参数（其他）
 
-![](./assets/img/OB/OB19.png)
+![](https://yyblog.win/assets/img/OB/OB19.png)
 
 ## 4.2 变量Variables
 
@@ -335,7 +335,7 @@ set @@global.<name>=<value>；
 
 #### 常见OB系统变量variables
 
-![](./assets/img/OB/OB20.png)
+![](https://yyblog.win/assets/img/OB/OB20.png)
 
 # 5.OCP、ODC和OMS工具
 
@@ -370,7 +370,7 @@ ODC（Oceanbase Developer Center，OceanBase开发者中心）是企业级数据
 
 OMS（OceanBase Migration Service，OceanBase迁移服务）
 
-![](./assets/img/OB/OB21.png)
+![](https://yyblog.win/assets/img/OB/OB21.png)
 
 核心功能：
 
@@ -381,6 +381,6 @@ OMS（OceanBase Migration Service，OceanBase迁移服务）
 
 OMS平滑去O方案
 
-![](./assets/img/OB/OB21.png)
+![](https://yyblog.win/assets/img/OB/OB21.png)
 
 数据实时同步+快速切换+回滚预案
